@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="來源檔案">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CL_Helpers">
+      <UniqueIdentifier>{198c487a-aebe-40ce-ada2-6a86f4bd446e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility">
+      <UniqueIdentifier>{31dd81c2-6571-447b-a0ba-222631e2030c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CL_ALG">
+      <UniqueIdentifier>{b044bb4a-2508-4e36-bb16-81a81d191bc0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>資源檔</Filter>
+    </ClCompile>
+    <ClCompile Include="CL_Helpers\altek_opencl.cpp">
+      <Filter>CL_Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="CL_Helpers\CL_BufferObject.cpp">
+      <Filter>CL_Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="CL_Helpers\CL_ImageObject.cpp">
+      <Filter>CL_Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="CL_Helpers\CL_Program.cpp">
+      <Filter>CL_Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="CL_Helpers\CL_Resource.cpp">
+      <Filter>CL_Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\debug_tools.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="CL_ALG\Histogram_CL.cpp">
+      <Filter>CL_ALG</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CL_Helpers\altek_opencl.h">
+      <Filter>CL_Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="CL_Helpers\CL_BufferObject.h">
+      <Filter>CL_Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="CL_Helpers\CL_ImageObject.h">
+      <Filter>CL_Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="CL_Helpers\CL_PlatformDef.h">
+      <Filter>CL_Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="CL_Helpers\CL_Program.h">
+      <Filter>CL_Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="CL_Helpers\CL_Resource.h">
+      <Filter>CL_Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\debug_tools.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\mtype.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="CL_ALG\Histogram_CL.h">
+      <Filter>CL_ALG</Filter>
+    </ClInclude>
+    <ClInclude Include="CL_ALG\Histogram_CLKernel.h">
+      <Filter>CL_ALG</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CL_ALG\Histogram_CLKernel.cl">
+      <Filter>CL_ALG</Filter>
+    </None>
+  </ItemGroup>
+</Project>
